@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, black 0%, black 40%, white 60%, white 100%);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input-box {
+    width: 300px;
+    height: 40px;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#generator {
+    background-color: #333;
+    color: white;
+}
+
+#copy-password {
+    background-color: #fff;
+    color: black;
+}
+
+button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+#clock {
+    font-size: 2em;
+    margin-top: 20px;
+    color: black;
+}
+
+.current {
+    color: black;
+}
